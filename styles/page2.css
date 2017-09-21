@@ -1,0 +1,288 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.header2 {
+    background: #169a5a;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-img2 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img2 img {
+    border: 1px solid white;
+}
+
+.heading2 {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 26px;
+    color: #6a7076;
+}
+
+.car-models {
+    width: 140px;
+    height: 34px;
+    border: 2px solid #6a7076;
+    font-family: arial;
+    font-weight: 700;
+    outline: 0;
+    margin-left: 20px;
+}
+
+
+/*All type cars- start*/
+
+.all-cars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #edeeed;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: white;
+    border-bottom: 5px solid #6a7076;
+    flex-basis: 492px;
+    flex-grow: 1;
+}
+
+.model {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.btn {
+    width: 400px;
+    height: 35px;
+    background: #169a5a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.img1 {
+    margin: 10px;
+}
+
+.img2 {
+    margin: 10px 10px 10px 0px;
+}
+
+.img3 {
+    margin: 10px 10px 10px 0px;
+}
+
+.img1 p,
+.img2 p,
+.img3 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.img4 {
+    margin: 0px 10px 10px 10px;
+}
+
+.img5 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img6 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img4 p,
+.img5 p,
+.img6 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.img7 {
+    margin: 0px 10px 10px 10px;
+}
+
+.img8 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img9 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img7 p,
+.img8 p,
+.img9 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.img10 {
+    margin: 0px 10px 10px 10px;
+}
+
+.img11 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img12 {
+    margin: 0px 10px 10px 0px;
+}
+
+.img10 p,
+.img11 p,
+.img12 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+
+/*All type cars- end*/
+
+
+/*standard cars start*/
+
+.standard-cars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #edeeed;
+    display: none;
+}
+
+.standard-img1 {
+    margin: 10px;
+}
+
+.standard-img2 {
+    margin: 10px 10px 10px 0px;
+}
+
+.standard-img3 {
+    margin: 10px 10px 10px 0px;
+}
+
+.standard-img1 p,
+.standard-img2 p,
+.standard-img3 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.standard-img4 {
+    margin: 0px 10px 10px 10px;
+}
+
+.standard-img5 {
+    margin: 0px 10px 10px 0px;
+}
+
+.standard-img6 {
+    margin: 0px 10px 10px 0px;
+}
+
+.standard-img4 p,
+.standard-img5 p,
+.standard-img6 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+
+/*standard cars end*/
+
+
+/*luxury cars start*/
+
+.luxury-cars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #edeeed;
+    display: none;
+}
+
+.luxury-img1 {
+    margin: 10px;
+}
+
+.luxury-img2 {
+    margin: 10px 10px 10px 0px;
+}
+
+.luxury-img3 {
+    margin: 10px 10px 10px 0px;
+}
+
+.luxury-img1 p,
+.luxury-img2 p,
+.luxury-img3 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+
+/*luxury cars end*/
+
+
+/*SUV cars start*/
+
+body>div.suv-cars {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #edeeed;
+    display: none;
+}
+
+.SUV-img1 {
+    margin: 10px;
+}
+
+.SUV-img2 {
+    margin: 10px 10px 10px 0px;
+}
+
+.SUV-img3 {
+    margin: 10px 10px 10px 0px;
+}
+
+.SUV-img1 p,
+.SUV-img2 p,
+.SUV-img3 p {
+    align-self: flex-start;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+
+/*SUV cars end*/

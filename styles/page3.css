@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.header3 {
+    background: #169a5a;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-img3 {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img3 img {
+    border: 1px solid white;
+}
+
+.heading3 {
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.heading3 p {
+    margin-left: 50px;
+    font-size: 33px;
+}
+
+.mainpage3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-details {
+    flex-basis: 50%;
+    border: 1px solid #6a7076;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.firstname,
+.lastname,
+.ph,
+.em {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.firstname span,
+.lastname span,
+.ph span,
+.em span {
+    flex-basis: 100%;
+    margin-left: 40px;
+}
+
+.first,
+.last,
+.email-address,
+.phonenum {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-basis: 90%;
+    height: 4vh;
+}
+
+.phonenum,
+.email-address {
+    padding-left: 10px;
+    flex-basis: 88%;
+}
+
+.reserve {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.reserve-btn {
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #169a5a;
+    height: 45px;
+    width: 300px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #169a5a;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-img {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-img img {
+    border: 1px solid white;
+}
+
+.nav-links {
+    display: flex;
+    background: #169a5a;
+}
+
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+
+.nav-items li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 200px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    font-size: 12pt;
+    font-family: arial;
+    text-align: center;
+}
+
+@media (min-width:800px) {
+    .nav-items li {
+        flex-basis: 80px;
+    }
+}
+
+.nav-items li:hover {
+    color: #ffd100;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.mainpage1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    flex-wrap: wrap;
+}
+
+.reservation>h2 {
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+.reservation p {
+    font-weight: 600;
+    margin: 0px 0px 5px 0px;
+}
+
+.location-text {
+    width: 97%;
+    height: 45px;
+    border: 2px solid #6a7076;
+    outline: 0;
+    padding-left: 20px;
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.location-text::placeholder {
+    font-size: 16px;
+}
+
+.reserved-dates {
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 60px 0px;
+    flex-grow: 1;
+}
+
+.reserved-dates span {
+    font-weight: 700;
+}
+
+.reserved-dates input,
+#age {
+    width: 130px;
+    height: 35px;
+    border: 2px solid #6a7076;
+    outline: 0;
+}
+
+#age {
+    height: 40px;
+}
+
+.reserved-dates input,
+#age {
+    margin: 10px;
+}
+
+.age label {
+    font-weight: 600;
+}
+
+.continue {
+    height: 45px;
+    width: 160px;
+    font-weight: 700;
+    border: none;
+    background: #ffd100;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.continue:hover {
+    background-color: #000;
+    color: #ffd100;
+    border: 2px solid #000;
+}
